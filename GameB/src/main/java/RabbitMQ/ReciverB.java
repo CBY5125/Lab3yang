@@ -6,7 +6,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
 public class ReciverB {
-        private final static String QUEUE_NAME = "hello";
+        private final static String QUEUE_NAME = "SpaceGame";
 
         public static void main(String[] argv) throws Exception {
             ConnectionFactory factory = new ConnectionFactory();
